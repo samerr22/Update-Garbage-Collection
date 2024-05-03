@@ -36,9 +36,7 @@ export default function FooterCom() {
             </div>
 
             </div>
-          <div className=" ml-[-750px] mt-48">
-            <p className="text-slate-900 font-extralight">@copwirtgarbage.com</p>
-          </div>
+          
           
         </div>
       </div>
