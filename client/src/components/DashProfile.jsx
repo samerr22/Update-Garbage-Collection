@@ -255,11 +255,7 @@ export default function DashProfile() {
           Sign Out
         </span>
       </div>
-      {updateUserSuccess && (
-        <p className="mt-5 text-green-600 bg-green-300 w-300 h-7 rounded-lg text-center " >
-          {updateUserSuccess}
-        </p>
-      )}
+     
      
      
       
