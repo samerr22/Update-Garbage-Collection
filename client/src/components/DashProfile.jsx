@@ -66,7 +66,7 @@ export default function DashProfile() {
       },
       (error) => {
         setImageFileUploadError(
-          'Could not upload image (File must be less than 2MB)'
+          'Could not upload imgs (File must be less than 2MB)'
         );
         setImageFileUploadProgress(null);
         setImageFile(null);
@@ -261,7 +261,7 @@ export default function DashProfile() {
         </p>
       )}
       {updateUserError && (
-        <p className="mt-5 text-red-600 bg-red-300 w-300 h-7 rounded-lg text-center ">
+        <p className="mt-5   w-300 h-7 rounded-lg text-center ">
           {updateUserError}
         </p>
       )}
