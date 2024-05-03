@@ -260,11 +260,7 @@ export default function DashProfile() {
           {updateUserSuccess}
         </p>
       )}
-      {updateUserError && (
-        <p className="mt-5   w-300 h-7 rounded-lg text-center ">
-          {updateUserError}
-        </p>
-      )}
+     
       {error && (
         <p className="mt-5 text-red-600 bg-red-300 w-300 h-7 rounded-lg text-center ">
           {error}
